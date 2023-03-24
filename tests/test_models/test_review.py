@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """ """
-from tests.test_models.test_base_model import test_basemodel
+from tests.test_models.test_base_model import TestBaseModel
 from models.review import Review
 from os import getenv
 
-
-class test_review(test_basemodel):
+class test_review(TestBaseModel):
     """ """
     if getenv("HBNB_TYPE_STORAGE") != "db":
         def __init__(self, *args, **kwargs):

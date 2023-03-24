@@ -10,6 +10,6 @@ from os import getenv
 
 class test_databaseStorage(unittest.TestCase):
     def test_all(self):
-        """ Test that all objects are returned """
+        """ __objects is properly returned """
         storage = DBStorage()
         self.assertIsInstance(storage, DBStorage)
