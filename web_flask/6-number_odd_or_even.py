@@ -43,10 +43,12 @@ def n_template(n):
 
 
 @app.route("/number_odd_or_even/<int:n>", strict_slashes=False)
-def  n_odd_or_even(n):
+def n_odd_or_even(n):
     """Route for the URL /number_odd_or_even/<n> only display if n is an int"""
-    odd_or_even = 'even' if n%2 == 0 else 'odd'
-    return render_template('6-number_odd_or_even.html', number=n, odd_or_even=odd_or_even)
+    odd_or_even = 'even' if n % 2 == 0 else 'odd'
+    return render_template(
+        '6-number_odd_or_even.html', number=n, parity=odd_or_even)
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
