@@ -23,8 +23,9 @@ def states_list(id=None):
         state = states.get('State.{}'.format(id))
         if state:
             cities_sorted = sorted(state.cities, key=lambda city: city.name)
+            no_cities = len(cities_sorted) == 0
             return render_template(
-                '9-states.html', state=state, cities=cities_sorted)
+                '9-states.html', state=state, cities=cities_sorted, no_cities=no_cities)
         else:
             return render_template('9-states.html', not_found=True, cities=None)
 
