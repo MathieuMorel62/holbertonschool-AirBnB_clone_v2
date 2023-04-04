@@ -6,14 +6,18 @@
 <body>
     {% if not_found %}
         <h1>Not found!</h1>
-    {% elif cities %}
+    {% elif cities is not none %}
         <h1>State: {{ state.name }}</h1>
-        <h3>Cities:</h3>
-        <ul>
-            {% for city in cities %}
-                <li>{{ city.id }}: <b>{{ city.name }}</b></li>
-            {% endfor %}
-        </ul>
+        {% if cities|length > 0 %}
+            <h3>Cities:</h3>
+            <ul>
+                {% for city in cities %}
+                    <li>{{ city.id }}: <b>{{ city.name }}</b></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <h3>Not found!</h3>
+        {% endif %}
     {% else %}
         <h1>States</h1>
         <ul>
