@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route("/states", strict_slashes=False)
 @app.route("/states/<id>", strict_slashes=False)
-def states_list():
+def states_list(id=None):
     """Displays an HTML page with a list of all State objects or cities"""
     if id is None:
         states = storage.all(State).values()
