@@ -10,20 +10,14 @@ from models.city import City
 app = Flask(__name__)
 
 
-@app.route("/states", strict_slashes=False)
-def states_list():
+@app.route("/states", defaults={'id': None}, strict_slashes=False)
+@app.route("/states/<id>", strict_slashes=False)
+def states_list(id):
     """Displays an HTML page with a list of states sorted by name"""
     states = storage.all(State).values()
-    return render_template('9-states.html', states=states)
-
-
-@app.route("/states/<id>", strict_slashes=False)
-def cities_list(id):
-    """Displays an HTML page with a list of all State objects or cities"""
-    for state in storage.all(State).values():
-        if state.id == id:
-            return render_template('9-states.html', state=state)
-    return render_template('9-states.html')
+    if id:
+        id = 'State.' + id
+    return render_template('9-states.html', states=states, id=id)
 
 
 @app.teardown_appcontext
