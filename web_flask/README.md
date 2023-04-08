@@ -872,7 +872,7 @@ mathieu@ubuntu:~$ curl 0.0.0.0:5000/cities_by_states ; echo ""
 ```
 </details>
 
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/9a7ae8155274b17881442200437e8793cf08de48.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=603a594f611643089ff211765a7ef0bd5c0a7fa09538795bb30457b50e4cf7f5" width="100%">
+<img src="https://user-images.githubusercontent.com/113856302/230739582-d1494525-3c5a-409c-9c87-88fb990c9c82.png" width="100%">
 
 --------------------------------------
 
@@ -1055,10 +1055,13 @@ mathieu@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd
 
 In the browser:
 
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/4f993ec8ca2a2f639a80887667106ac63a0a3701.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=62e1f21099bba8e5fe1d4c6c4c7e5be015198266daa7802657954b22c791c8e0" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/1549b553d726cc37f64440be910cb6b858aa32ae.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=efc745c1c49df84f6a342adcf808a9ef08e9f34e17b28a647d6e3aa1f4bdf089" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/94b3a416ba1551c59701eb6672ac0a36fbebba14.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b6e0cfc3884953c771366c388dfbbdc42ab425ef2887bc6c26d2f94efab91878" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/1e559707dd34a37564dc10e54b707815a516d363.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b65d13d07021db3c3d435cb44cabc885915f00e5f6f1fa30418b46387c4e9896" width="100%">
+<img src="https://user-images.githubusercontent.com/113856302/230739635-25f2d574-a8c8-4802-b885-9452a0ec4fb0.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739648-fbb48499-a0b8-4f84-a624-8824a617801d.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739659-ffdbc8cd-2602-463e-9c9c-fe392c906a6a.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739672-e560f97a-ab05-42fa-9638-fd25c7d4e436.png" width="100%">
 
 ----------------------------
 
@@ -1107,11 +1110,15 @@ mathieu@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd
 ```
 </details>
 
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/396ae10c9f85a6128ae40e1b63f4bce95adf411c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=92c4eb23dfbe20068f68cde13e20a911ed77316c8873f6647df587f27506c1e5" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/9eb21499b5f3b59751fdbf561174e2f259d97482.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1ee89a381dbb2131da70753c710d4318302a86bcd6d0c3ecda8c0a07a0ac084c" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/bf248a63c15a746ad694acffdd56d80281782c71.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=43a101d26a83048d15d9607437991f9293b780419f7bc13c5d4a9bc2bcdaa0d5" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/494317aad058a649a51f416eceee1a609f07c6c0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f3e456687ac11110fe4f4afe08305c6aae8f9fa49fc8dd6f19b0afdcfad54747" width="100%">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/016911388aa92532e06c4d5361188a2622425517.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230407%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230407T143111Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2546121b4d768f2db933078cf3b57921ff056c0be2289fbb8773e2f1886f3961" width="100%">
+<img src="https://user-images.githubusercontent.com/113856302/230739711-31ed91f2-f423-4629-9155-fe171a9746f8.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739724-2d3954a4-e24c-4b9d-b9b6-0815d9358c01.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739735-94b3ed48-519a-497b-8f8d-d0adc74def72.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739743-d86a78a9-bb88-4c97-8338-0afe51e3990b.png" width="100%">
+
+<img src="https://user-images.githubusercontent.com/113856302/230739757-f6bffe06-9866-468e-9846-08c7b49de737.png" width="100%">
 
 -------------------
 
